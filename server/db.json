@@ -1,0 +1,261 @@
+{
+  "centers": [
+    {
+      "id": 1,
+      "name": "Los Angeles Center"
+    },
+    {
+      "id": 2,
+      "name": "New York Center"
+    },
+    {
+      "id": 3,
+      "name": "Sidney Center"
+    },
+    {
+      "id": 4,
+      "name": "Montreal Center"
+    },
+    {
+      "id": 5,
+      "name": "Paris Center"
+    },
+    {
+      "id": 6,
+      "name": "Madrid Center"
+    }
+  ],
+  "treadmills": [
+    {
+      "id": 1,
+      "serialNumber": "tgr-wwf-4254-cqny",
+      "centerId": 1
+    },
+    {
+      "id": 2,
+      "serialNumber": "tgr-grk-4675-obwb",
+      "centerId": 2
+    },
+    {
+      "id": 3,
+      "serialNumber": "tgr-iot-3743-bkir",
+      "centerId": 3
+    },
+    {
+      "id": 4,
+      "serialNumber": "tgr-wwf-4254-cqny",
+      "centerId": 4
+    },
+    {
+      "id": 5,
+      "serialNumber": "tgr-grk-4675-obwb",
+      "centerId": 5
+    },
+    {
+      "id": 6,
+      "serialNumber": "tgr-iot-3743-bkir",
+      "centerId": 6
+    },
+    {
+      "id": 7,
+      "serialNumber": "tgr-wwf-4254-cqny",
+      "centerId": 1
+    },
+    {
+      "id": 8,
+      "serialNumber": "tgr-grk-4675-obwb",
+      "centerId": 2
+    },
+    {
+      "id": 9,
+      "serialNumber": "tgr-iot-3743-bkir",
+      "centerId": 3
+    },
+    {
+      "id": 10,
+      "serialNumber": "tgr-wwf-4254-cqny",
+      "centerId": 4
+    },
+    {
+      "id": 11,
+      "serialNumber": "tgr-grk-4675-obwb",
+      "centerId": 5
+    },
+    {
+      "id": 12,
+      "serialNumber": "tgr-iot-3743-bkir",
+      "centerId": 6
+    }
+  ],
+  "health-checks": [
+    {
+      "id": 1,
+      "treadmillId": 1,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 12,
+      "minutes": 30,
+      "seconds": 0,
+      "volts": 12.5,
+      "watts": 100,
+      "hp": 1.5
+    },
+    {
+      "id": 2,
+      "treadmillId": 2,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 12,
+      "minutes": 35,
+      "seconds": 10,
+      "volts": 12.6,
+      "watts": 104,
+      "hp": 1.6
+    },
+    {
+      "id": 3,
+      "treadmillId": 3,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 12,
+      "minutes": 40,
+      "seconds": 20,
+      "volts": 12.7,
+      "watts": 108,
+      "hp": 1.7
+    },
+    {
+      "id": 4,
+      "treadmillId": 4,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 12,
+      "minutes": 45,
+      "seconds": 30,
+      "volts": 12.8,
+      "watts": 112,
+      "hp": 1.8
+    },
+    {
+      "id": 5,
+      "treadmillId": 5,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 12,
+      "minutes": 50,
+      "seconds": 40,
+      "volts": 12.9,
+      "watts": 116,
+      "hp": 1.9
+    },
+    {
+      "id": 6,
+      "treadmillId": 6,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 12,
+      "minutes": 55,
+      "seconds": 50,
+      "volts": 13.0,
+      "watts": 120,
+      "hp": 2.0
+    },
+    {
+      "id": 7,
+      "treadmillId": 7,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 0,
+      "seconds": 0,
+      "volts": 13.1,
+      "watts": 124,
+      "hp": 2.1
+    },
+    {
+      "id": 8,
+      "treadmillId": 8,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 5,
+      "seconds": 10,
+      "volts": 13.2,
+      "watts": 128,
+      "hp": 2.2
+    },
+    {
+      "id": 9,
+      "treadmillId": 9,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 10,
+      "seconds": 20,
+      "volts": 13.3,
+      "watts": 132,
+      "hp": 2.3
+    },
+    {
+      "id": 10,
+      "treadmillId": 10,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 15,
+      "seconds": 30,
+      "volts": 13.4,
+      "watts": 136,
+      "hp": 2.4
+    },
+    {
+      "id": 11,
+      "treadmillId": 11,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 20,
+      "seconds": 40,
+      "volts": 13.5,
+      "watts": 140,
+      "hp": 2.5
+    },
+    {
+      "id": 12,
+      "treadmillId": 12,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 25,
+      "seconds": 50,
+      "volts": 13.6,
+      "watts": 144,
+      "hp": 2.6
+    },
+    {
+      "id": 13,
+      "treadmillId": 1,
+      "year": 2023,
+      "month": 5,
+      "day": 5,
+      "hour": 13,
+      "minutes": 30,
+      "seconds": 0,
+      "volts": 13.7,
+      "watts": 148,
+      "hp": 2.7
+    }
+  ]
+}

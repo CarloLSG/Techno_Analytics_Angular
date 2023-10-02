@@ -1,0 +1,51 @@
+<div class="table-wrapper">
+  <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Filter" #input>
+  </mat-form-field>
+  <table mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="recordId">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Record Id </th>
+      <td mat-cell *matCellDef="let row"> {{row.id}} </td>
+    </ng-container>
+    <ng-container matColumnDef="treadmillId">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Treadmill Id </th>
+      <td mat-cell *matCellDef="let row"> {{row.treadmillId}}</td>
+    </ng-container>
+    <ng-container matColumnDef="serialNumber">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Serial Number </th>
+      <td mat-cell *matCellDef="let row"> {{getSerialNumber(row.treadmillId)}}</td>
+    </ng-container>
+    <ng-container matColumnDef="centerName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> CenterName </th>
+      <td mat-cell *matCellDef="let row"> {{ getCenterName(row.treadmillId) }}</td>
+    </ng-container>
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Date </th>
+      <td mat-cell *matCellDef="let row"> {{ getDate(row.year, row.month, row.day)}}</td>
+    </ng-container>
+    <ng-container matColumnDef="time">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Time </th>
+      <td mat-cell *matCellDef="let row"> {{getTime(row.hour, row.minutes, row.seconds)}}</td>
+    </ng-container>
+    <ng-container matColumnDef="volts">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Volts </th>
+      <td mat-cell *matCellDef="let row"> {{row.volts}}</td>
+    </ng-container>
+    <ng-container matColumnDef="watts">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Watts </th>
+      <td mat-cell *matCellDef="let row"> {{row.watts}}</td>
+    </ng-container>
+    <ng-container matColumnDef="hp">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> HP </th>
+      <td mat-cell *matCellDef="let row"> {{row.hp}}</td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [length]="100"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[5, 10, 25, 100]"
+                 aria-label="Select page">
+  </mat-paginator>
+</div>
